@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/Deadshot994/web-app-CI-CD-AWS.git'
+                git branch: 'main', url: 'https://github.com/PragadishS/web-app.git'
             }
         }
 
